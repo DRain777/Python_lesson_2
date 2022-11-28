@@ -15,5 +15,5 @@ else:
     minuts_1 = minuts % 10
     second_10 = seconds // 10    
     second_1 = seconds % 10
-    print(f'{hours_10}{ hors_1}:{minuts_10}{minuts_1}:{second_10}{second_1}')  
+    print(f'{hours_10}{ hors_1}:{minuts_10}{minuts_1}\:{second_10}{second_1}')  
          
