@@ -2,7 +2,7 @@
 #Сообщить к какому времени года относится месяц (зима, весна, лето, осень).
 #Напишите решения через list и через dict.
 
-month = int(input('Введите месяц  от 1 до 12'))
+month = int(input('Введите месяц  от 1 до 12: '))
 season_list = ['winter','spring','summer','autumn']
 season_dict = {1 :'winter',2:'spring',3 :'summer',4 :'autumn'}
 if month == 12 or month == 1 or  month == 2:
