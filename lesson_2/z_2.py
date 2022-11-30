@@ -2,11 +2,14 @@
 # Значениями обмениваются элементы с индексами 0 и 1, 2 и 3 и т.д. 
 # При нечетном количестве элементов последний сохранить на своем месте.
 # Для заполнения списка элементов необходимо использовать функцию input().
-eent_count = int(input("Введите количество элементов списка "))
-my_list = []
-i = 0
-element = 0
-while i < element_count:
-    my_list.append(input("Введите значение списка "))lem
-    i += 1
+my_list = input("Введите 7 элементов списка через пробел: ").split()
+i = len(my_list)
+if i != 7:
+    print(f'{i}  вы ввели {i}  вместо 7 элементов')
+else:    
+    my_list[0],my_list[1] = my_list[1],my_list[0]
+    my_list[2],my_list[3] = my_list[3],my_list[2]
+    my_list[4],my_list[5] = my_list[5],my_list[4]
+   
 
+print(my_list)
