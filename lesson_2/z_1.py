@@ -10,7 +10,7 @@ float_var = 19.5  # float плавающие.
 list_var = [7, 5, 'text']
 dict_var = {1: 'a', 2: 'b', 3: 'c'}  # Словарь.
 
-for el in list:
+for el in my_list:
     print(type(el))
     
 
